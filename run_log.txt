@@ -1,0 +1,19 @@
+[14:52:23] lidar reference: 114481 crowns >= 0.3 m, 38845 >= 0.5 m (0 s)
+[14:52:34] NAIP ['2022-05-29'], shift (-1.35, 0.6) m, residual (0.0, -0.0) (12 s)
+[14:56:57] baseline: msavi > -0.0098 (percentile 90), 97085 crowns (263 s)
+[14:58:38] SAM points truecolor: dev F1 0.475 (45 s)
+[14:59:23] SAM points falsecolor: dev F1 0.528 (45 s)
+[14:59:25] SAM points: falsecolor, 98803 crowns
+[15:00:31] SAM auto: 123493 crowns (65 s)
+[15:00:53] accuracy done (22 s)
+[15:01:41] scaling done (49 s)
+[15:02:27]   Aral 2018: 21 dates
+[15:03:02]   Aral 2019: 21 dates
+[15:03:50]   Aral 2020: 22 dates
+[15:04:32]   Aral 2021: 23 dates
+[15:06:15]   Aral 2022: 25 dates
+[15:07:37]   Aral 2023: 20 dates
+[15:08:37]   Aral 2024: 20 dates
+[15:10:01]   Aral 2025: 24 dates
+[15:10:19] Aral done (518 s)
+[15:10:21] figures done (2 s)

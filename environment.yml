@@ -1,0 +1,28 @@
+# Versions pinned to the environment used for the results in README.md / results/metrics.json.
+name: shrub-crowns
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - scikit-image=0.26.0
+  - matplotlib=3.11.2
+  - rasterio=1.4.4
+  - pyproj=3.7.2
+  - pystac-client=0.9.1
+  - planetary-computer=1.0.0
+  - odc-stac=0.5.3
+  - pytest=9.1.1
+  - pip
+  - pip:
+      # PyTorch with CUDA 12.4 wheels (use https://download.pytorch.org/whl/cpu without an NVIDIA GPU)
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch==2.6.0+cu124
+      - torchvision==0.21.0+cu124
+      # Meta's official Segment Anything package
+      - segment-anything==1.0
+      - pillow==13.0.0
+      # NEON lidar point clouds (LAZ)
+      - laspy==2.7.0
+      - lazrs==0.8.2

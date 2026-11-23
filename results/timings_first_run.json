@@ -1,0 +1,7 @@
+{
+ "note": "Copied by hand from the console log of the first full run on 23 Nov 2026 (later runs reuse the cached SAM outputs, so their runtime_s in metrics.json is shorter). One 16 GB consumer GPU.",
+ "sam_points_truecolor_s": 541,
+ "sam_points_falsecolor_s": 619,
+ "sam_automatic_falsecolor_s": 4600,
+ "full_run_s": 6672
+}

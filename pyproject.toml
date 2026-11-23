@@ -1,0 +1,10 @@
+[project]
+name = "shrubs"
+version = "0.1.0"
+description = "Shrub crowns on sub-metre imagery validated against lidar, and what Sentinel-2 can see of them"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
